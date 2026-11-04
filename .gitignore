@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data Files
+*.csv
+*.xls
+*.xlsx
+*.zip
+*.gzip
+*.gz
+*.parquet
+*.geoparquet
+data/
