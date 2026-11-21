@@ -5,3 +5,9 @@ https://research.edgehill.ac.uk/ws/portalfiles/portal/46408645/Home_or_hotel_A_c
 https://www.sciencedirect.com/science/article/pii/S0261517723000201?via%3Dihub. 
 
 This essay illustrates the defination of commercial householders, which can be referred as the replacement of professional landlords.
+
+## Q1 Host Concentration
+
+[Download the Excel results](./q1_host_concentration.xlsx)
+
+## Additional Literature
