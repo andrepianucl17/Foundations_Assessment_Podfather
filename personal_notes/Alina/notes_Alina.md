@@ -44,12 +44,11 @@ https://link.springer.com/article/10.1007/s11609-024-00542-3
 
 - Data and research method: The authors use **Inside Airbnb** snapshots to compare listing composition in **45 cities and tourism destinations from 2016 to 2023**. Their comparison over time starts with listings available for at least one day in the next 365 days. The spatial analysis uses listings with at least one review in the past year and a **500-metre hexagonal grid** to study hotspots in London, Amsterdam, Berlin and San Francisco in **December 2023**.
 
-- Classification rules and the meaning of 60.4%:
-- The **2+ cutoff** identifies accounts with two or more listings. The authors call their listings professional multi-listings.
+- Classification rules and the meaning of 60.4%: The **2+ cutoff** identifies accounts with two or more listings. The authors call their listings professional multi-listings.
 
-- **120 days** distinguishes accounts with one listing. A listing available for fewer than 120 days is classified as amateur, and one available for at least 120 days is classified as professional single. Availability refers to the forthcoming year's calendar.
+**120 days** distinguishes accounts with one listing. A listing available for fewer than 120 days is classified as amateur, and one available for at least 120 days is classified as professional single. Availability refers to the forthcoming year's calendar.
 
-- **50%** describes market composition. In Figure 1, the authors use a share above 50% to identify markets where professional multi-listings make up most of the supply. [Sections 3.2 and 4.1][paper]
+**50%** describes market composition. In Figure 1, the authors use a share above 50% to identify markets where professional multi-listings make up most of the supply. [Sections 3.2 and 4.1][paper]
 
 Across the 45 locations, more markets came to have a majority of professional multi-listings over time. In the authors' **December 2023** London sample, hosts with 2+ listings managed **60.4%** of the **65,651 listings** included in the analysis. The numerator counts listings managed by these hosts, and the denominator is all included listings. 
 
