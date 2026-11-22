@@ -83,11 +83,11 @@ https://discovery.ucl.ac.uk/id/eprint/10120512/1/0042098020970865.pdf
 
 ## My summary about Q1:
 
-- Method:
+- **Method:**
 
  The main analysis uses entire-home and apartment listings from the September 2026 London Airbnb snapshot. We first select entire-home listings  and then count the listings managed by each host_id within that sample. 2+ identifies accounts that manage at least two entire-home listings.   This follows Simcock’s approach to analysing entire-home portfolios in London. We then raise the cutoff to 3+, keeping the same sample and      denominators, to test whether the majority finding depends on accounts with exactly two listings. The sensitivity check follows Milone et       al.’s approach of testing alternative listing-count cutoffs. We repeat both calculations in the full sample as a comparison. Simcock (2023),    Table 4 · Milone et al. (2023), Section 3.2.5 and Table 8
 
-- Assessment criterion:
+- **Assessment criterion:**
 
  Both shares use the same sample.
 
@@ -96,11 +96,11 @@ https://discovery.ucl.ac.uk/id/eprint/10120512/1/0042098020970865.pdf
 
  A minority of accounts manages a majority of listings when its share of accounts is below 50% and its share of listings is above 50%. The       listing-share benchmark follows Kirchner and Pohl’s use of a majority threshold to describe the composition of supply. Kirchner and Pohl        (2024), Sections 3.2 and 4.1
 
-- Results and interpretation:
+- **Results and interpretation:**
 
 In the entire-home sample, the 2+ group meets the criterion for a minority of accounts managing a majority of listings. Raising the cutoff to 3+ excludes accounts with exactly two entire-home listings from the qualifying group. These accounts manage 4,792 listings, so the group’s share falls by 7.85 percentage points, from 52.69% to 44.84%. A minority of accounts manages a substantial share at both cutoffs. The majority finding depends on including accounts with exactly two listings. The full sample shows the same change in majority status.
 
-- What this means for Q1: Out of control
+- **What this means for Q1: Out of control**
 
 Host concentration is one indicator in assessing whether Airbnb is out of control in London. These results describe how listings are distributed across accounts. To assess potential pressure on the housing stock, calculate entire-home Airbnb listings per 1,000 dwellings in each borough. Shabrina et al.’s London study shows that a low citywide share can coexist with higher shares of local housing stock in some neighbourhoods. Estimating how many homes actually shifted from long-term rental to short-term letting requires property-level rental histories. Shabrina et al. (2022), Figure 3
 
