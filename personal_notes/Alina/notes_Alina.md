@@ -44,7 +44,8 @@ https://link.springer.com/article/10.1007/s11609-024-00542-3
 
 - Data and research method: The authors use **Inside Airbnb** snapshots to compare listing composition in **45 cities and tourism destinations from 2016 to 2023**. Their comparison over time starts with listings available for at least one day in the next 365 days. The spatial analysis uses listings with at least one review in the past year and a **500-metre hexagonal grid** to study hotspots in London, Amsterdam, Berlin and San Francisco in **December 2023**.
 
-- Classification rules and the meaning of 60.4%: The **2+ cutoff** identifies accounts with two or more listings. The authors call their listings professional multi-listings.
+- Classification rules and the meaning of 60.4%:
+The **2+ cutoff** identifies accounts with two or more listings. The authors call their listings professional multi-listings.
 
 **120 days** distinguishes accounts with one listing. A listing available for fewer than 120 days is classified as amateur, and one available for at least 120 days is classified as professional single. Availability refers to the forthcoming year's calendar.
 
