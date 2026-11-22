@@ -37,3 +37,27 @@ Of the 62,456 entire-home listings in our snapshot, 33,861 had received at least
 The report gives a practical reason to be cautious about housing loss: residents can let their own homes temporarily while they are away. Such a listing could also receive a guest review. Our results therefore show where listings are concentrated and how that pattern responds to the review filter. Estimating how many homes moved out of long-term renting would require evidence on their previous use.
 
 [Analysis notebook](./q1_spatial_pressure.ipynb) · [Borough counts and housing denominators](./Borough_counts.csv)
+
+## Quattrone et al. (2016) — What can a map of Airbnb supply tell us?
+
+**Source.** Quattrone, G., Proserpio, D., Quercia, D., Capra, L. and Musolesi, M. (2016) ‘Who Benefits from the “Sharing” Economy of Airbnb?’, *Proceedings of the 25th International Conference on World Wide Web*. See Figure 1 and Sections 5.1, 5.2 and 6.2. [Read the paper](https://archives.iw3c2.org/www2016/WWW2016-Proceedings/proceedings/p1385.pdf).
+
+### What the paper does
+
+Figure 1 maps hotels, Airbnb houses and Airbnb rooms separately across London. The authors use 625 wards as their spatial units, distinguish Airbnb supply from demand, and investigate whether the distribution of listings is associated with distance from the city centre.
+
+### Comparison with our Q1 analysis
+
+| Question | Quattrone et al. | Our analysis |
+|---|---|---|
+| What does one area on the map represent? | A ward. This finer scale can show variation within a borough. | A borough-level area. Our rate summarises the area as a whole and can hide differences between its neighbourhoods. |
+| What does the map measure? | Figure 1 shows counts by accommodation type. The Airbnb houses panel is the closest comparison with our entire-home sample. | We count entire-home listing IDs and divide by local dwelling stock to obtain listings per 1,000 dwellings. |
+| How is demand treated? | The authors analyse supply and demand as separate measures. | We count listings. Requiring a recent review gives us a subset with evidence of guest activity; each qualifying listing still counts once. |
+
+### What this changes in our interpretation
+
+The City of London has 500 entire-home listings and 7,770 dwellings. Its rate of 64.35 listings per 1,000 dwellings ranks second among the 33 areas. This illustrates how a borough with relatively few listings can rank highly once we account for its housing stock. The borough average leaves open the question of where those listings cluster within its boundaries.
+
+Of the 62,456 entire-home listings in our June 2026 snapshot, 33,861 received at least one review in the preceding 12 months. Under this filter, the same four areas lead in the same order. This supports our finding about the geography of supply. To assess who benefits financially, we would also need evidence on booking revenue, who receives it and where recipients live.
+
+[Our analysis notebook](./q1_spatial_pressure.ipynb) · [Borough counts and housing denominators](./Borough_counts.csv)
