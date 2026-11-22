@@ -1,5 +1,5 @@
 Sth that might be shared together.
-## Q1 Host Concentration
+## Q1 about "Host Concentration"
 
 [Download the Excel results](./q1_host_concentration.xlsx)
 
@@ -46,17 +46,65 @@ https://link.springer.com/article/10.1007/s11609-024-00542-3
 
 - Classification rules and the meaning of 60.4%:
 
-The **2+ cutoff** identifies accounts with two or more listings. The authors call their listings professional multi-listings.
+1. The **2+ cutoff** identifies accounts with two or more listings. The authors call their listings professional multi-listings.
 
-**120 days** distinguishes accounts with one listing. A listing available for fewer than 120 days is classified as amateur, and one available for at least 120 days is classified as professional single. Availability refers to the forthcoming year's calendar.
+2. **120 days** distinguishes accounts with one listing. A listing available for fewer than 120 days is classified as amateur, and one available for at least 120 days is classified as professional single. Availability refers to the forthcoming year's calendar.
 
-**50%** describes market composition. In Figure 1, the authors use a share above 50% to identify markets where professional multi-listings make up most of the supply. [Sections 3.2 and 4.1][paper]
+3. **50%** describes market composition. In Figure 1, the authors use a share above 50% to identify markets where professional multi-listings make up most of the supply. [Sections 3.2 and 4.1][paper]
 
 Across the 45 locations, more markets came to have a majority of professional multi-listings over time. In the authors' **December 2023** London sample, hosts with 2+ listings managed **60.4%** of the **65,651 listings** included in the analysis. The numerator counts listings managed by these hosts, and the denominator is all included listings. 
 
 - For the group study: - **Q1 — Host concentration.** In the December 2023 London sample, hosts with two or more listings managed 60.4% of listings. Use the share of listings managed by 2+ accounts to assess whether they supply a majority. A share above 50% indicates a majority of listings. Report their share of host accounts alongside it to show how many accounts manage that supply. The broader assessment also needs evidence on the local housing stock and the geographical distribution of listings.
 
 - **Q2 — Estimating potentially professional host accounts.** In the study’s availability-filtered sample, classify accounts with two or more listings as professional multi-listing hosts. For an account with exactly one listing, classify it as professional single-listing if that listing is available for at least 120 of the next 365 days. Count distinct host_id values in each group and add the two counts to estimate the number of potentially professional host accounts under this rule.
+
+## Essay4:
+https://discovery.ucl.ac.uk/id/eprint/10120512/1/0042098020970865.pdf
+
+- Data and methods:
+
+**Spatial analysis.** The authors use **Inside Airbnb listings from 2015 to 2019** and **2015 Valuation Office Agency (VOA)** dwelling counts. They compare Greater London, boroughs and smaller census areas called Lower Layer Super Output Areas (LSOAs). Figure 3 shows both the borough and LSOA scales. [Data sources][data] · [Figure 3][map]
+
+**Rent analysis.** The borough-level multiple regression relates the **2015 count of listings that pass the stricter screen** to changes in **Zoopla asking rents from 2015 to 2017**, controlling for tenure mix, net additional dwellings and distance to the centre. [Model specification][model] · [Table 2][regression]
+
+- Screening criteria and findings:
+
+1. **First screen.** Select **entire-home listings** offered for **more than 180 days** over a year. The authors assume **50% occupancy** to flag listings that could be booked for more than 90 days. Confirming actual bookings requires booking records. 
+
+2. **Second screen.** Keep the listings from the first screen whose hosts have **two or more listings**. The authors call this *possible misuse*. Establishing whether a specific dwelling breached the rules would require booking and planning permission records.
+
+3. **Spatial finding.** In 2018, about **8,200 listings** passed the first screen, equivalent to around **0.25%** of London's housing stock. About **5,300** passed the stricter screen, equivalent to roughly **0.16%** across London and **3.5%–7%** of local dwelling stock in some LSOAs.
+
+4. Rent finding.** Boroughs with more listings passing the stricter screen in 2015 had larger estimated increases in asking rents between 2015 and 2017. The regression supports a discussion of the association. Estimating a causal effect or counting homes withdrawn from long-term rental would require further research design and property histories.
+
+- For the group study: - **Q1 — Host concentration.** Finding we can cite.** A citywide share can obscure neighbourhood hotspots. Our 2+ and 3+ figures describe how listings are distributed across accounts. This study adds a geographic measure of how large that supply is relative to local housing stock.  **Assessment criterion.** Calculate **entire-home listings per 1,000 dwellings** in each borough. Repeat the calculation with a stricter numerator of **entire homes offered for more than 180 days and managed by hosts with 2+ listings**. Use the same borough dwelling count for both rates and report the dates of the listings and the dwelling counts. The rates help identify areas with greater potential exposure to short-term letting.
+  
+- **Q2 — Estimating potentially professional host accounts.** - **Finding we can use.** Among multi-listing accounts, we can identify hosts with at least one entire home offered for a substantial part of the year. This gives a way to see how the estimated count changes under a stricter screen. **Proposed group rule.** Count each account's listings by `host_id` in the London base sample. Select listings managed by **2+** hosts with `room_type` equal to `Entire home/apt` and `availability_365 > 180`. Count distinct `host_id` values among those listings for a stricter supplementary estimate. Kirchner and Pohl use **at least 120 days** to classify single-listing hosts. Shabrina et al. use **more than 180 days** to screen entire-home listings.
+
+## My summary about Q1:
+
+- Method:
+
+ The main analysis uses entire-home and apartment listings from the September 2026 London Airbnb snapshot. We first select entire-home listings  and then count the listings managed by each host_id within that sample. 2+ identifies accounts that manage at least two entire-home listings.   This follows Simcock’s approach to analysing entire-home portfolios in London. We then raise the cutoff to 3+, keeping the same sample and      denominators, to test whether the majority finding depends on accounts with exactly two listings. The sensitivity check follows Milone et       al.’s approach of testing alternative listing-count cutoffs. We repeat both calculations in the full sample as a comparison. Simcock (2023),    Table 4 · Milone et al. (2023), Section 3.2.5 and Table 8
+
+- Assessment criterion:
+
+ Both shares use the same sample.
+
+ - **Host account share** = qualifying accounts ÷ all accounts in the sample.
+ - **Listing share** = listings managed by qualifying accounts ÷ all listings in the sample.
+
+ A minority of accounts manages a majority of listings when its share of accounts is below 50% and its share of listings is above 50%. The       listing-share benchmark follows Kirchner and Pohl’s use of a majority threshold to describe the composition of supply. Kirchner and Pohl        (2024), Sections 3.2 and 4.1
+
+- Results and interpretation:
+
+In the entire-home sample, the 2+ group meets the criterion for a minority of accounts managing a majority of listings. Raising the cutoff to 3+ excludes accounts with exactly two entire-home listings from the qualifying group. These accounts manage 4,792 listings, so the group’s share falls by 7.85 percentage points, from 52.69% to 44.84%. A minority of accounts manages a substantial share at both cutoffs. The majority finding depends on including accounts with exactly two listings. The full sample shows the same change in majority status.
+
+- What this means for Q1: Out of control
+
+Host concentration is one indicator in assessing whether Airbnb is out of control in London. These results describe how listings are distributed across accounts. To assess potential pressure on the housing stock, calculate entire-home Airbnb listings per 1,000 dwellings in each borough. Shabrina et al.’s London study shows that a low citywide share can coexist with higher shares of local housing stock in some neighbourhoods. Estimating how many homes actually shifted from long-term rental to short-term letting requires property-level rental histories. Shabrina et al. (2022), Figure 3
+
+
 
 
 
