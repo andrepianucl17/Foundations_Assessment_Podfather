@@ -28,11 +28,16 @@ https://research.edgehill.ac.uk/ws/portalfiles/portal/46408645/Home_or_hotel_A_c
 
 - **Q2 Defining professional hosts.** Use the entire-home **2+** threshold as one candidate measure of operating scale and compare it with **3+**. Simcock gives a reason to examine entire-home listings separately, and Milone et al. show how to test sensitivity to alternative cutoffs. [Milone et al. reading note](milone-et-al-2023.md)
 
-- Sample | 2019 Host share | 2019 Listing share | 2026 Host share | 2026 Listing share |
-|---|---:|---:|---:|---:|
-| All listings | ≈18% | ≈47% | 20.22% | 55.45% |
-| Entire homes | ≈12% | ≈44% | 15.15% | 52.69%
+- ### London Airbnb hosts with 2+ listings in 2019 and 2026
 
+| Sample | 2019 host share | 2019 listing share | 2026 host share | 2026 listing share |
+| --- | ---: | ---: | ---: | ---: |
+| All listings | ≈18% | ≈47% | 20.22% | 55.45% |
+| Entire-home listings | ≈12% | ≈44% | 15.15% | 52.69% |
+
+A host qualifies as 2+ if they manage at least two listings within the relevant sample. Host share is the percentage of hosts who qualify. Listing share is the percentage of listings managed by those hosts.
+
+The 2019 figures are rounded as reported in Tables 3 and 4 of Simcock (2023). The 2026 figures come from the group's September Inside Airbnb snapshot.
 
 
 
