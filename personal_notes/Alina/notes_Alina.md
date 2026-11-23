@@ -5,6 +5,8 @@ This analysis uses the 17 September 2026 Inside Airbnb London listings. It count
 
 [Download the Excel results](./q1_host_concentration.xlsx)
 
+[View the Python notebook](./q1_host_concentration.ipynb)
+
 ## Additional Literature
 ## Essay1:
 https://www.sciencedirect.com/science/article/pii/S0261517723000201?via%3Dihub. 
