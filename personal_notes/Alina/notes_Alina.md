@@ -1,6 +1,8 @@
 Sth that might be shared together.
 ## Q1 about "Host Concentration"
 
+This analysis uses the 17 September 2026 Inside Airbnb London listings. It counts distinct listings per host account and compares the 2+ and 3+ thresholds for all listings and for entire homes and apartments separately.
+
 [Download the Excel results](./q1_host_concentration.xlsx)
 
 ## Additional Literature
@@ -103,7 +105,6 @@ In the entire-home sample, the 2+ group meets the criterion for a minority of ac
 - **What this means for Q1: Out of control**
 
 Host concentration is one indicator in assessing whether Airbnb is out of control in London. These results describe how listings are distributed across accounts. To assess potential pressure on the housing stock, calculate entire-home Airbnb listings per 1,000 dwellings in each borough. Shabrina et al.’s London study shows that a low citywide share can coexist with higher shares of local housing stock in some neighbourhoods. Estimating how many homes actually shifted from long-term rental to short-term letting requires property-level rental histories. Shabrina et al. (2022), Figure 3
-
 
 
 
